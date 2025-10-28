@@ -12,7 +12,7 @@ nav:
     - Lucas M. Rocha:          pages/lucas/index.md
 
 theme:
-  name: material
+  name:     material
   language: pt-BR
   custom_dir: docs/overrides
 
@@ -46,6 +46,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true # Enables dollar delimiters for inline math
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 extra_css:
   - stylesheets/extras.css
