@@ -1,0 +1,51 @@
+
+site_name: MathTech
+site_url: https://MathTech-CEFET-MG.github.io
+nav:
+  - Início: index.md
+  - Docentes:
+    - Luis A. D’Afonseca:      pages/luis/index.md
+    - Carlos M. M. Cosme:      pages/carlos/index.md
+    - Dênis E. C. Vargas:      pages/denis/index.md
+    - Izabela M. de Oliveira:  pages/izabela/index.md
+    - Jonathas D. S. Oliveira: pages/jonathas/index.md
+    - Lucas M. Rocha:          pages/lucas/index.md
+
+theme:
+  name: material
+  language: pt-BR
+  custom_dir: docs/overrides
+
+  features:
+    - navigation.instant
+
+  font:
+    text: "Lato"
+    code: "Fira Code"
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extras.css
