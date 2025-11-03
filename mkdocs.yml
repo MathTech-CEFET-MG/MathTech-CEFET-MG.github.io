@@ -12,8 +12,10 @@ nav:
     - Lucas M. Rocha:          pages/lucas/index.md
 
 theme:
-  name:     material
-  language: pt-BR
+  name:       material
+  language:   pt-BR
+  logo:       imag/favicon.png
+  favicon:    imag/favicon.png
   custom_dir: docs/overrides
 
   features:
@@ -54,3 +56,8 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extras.css
+
+extra:
+  analytics:
+    provider: google
+    property: G-781J9XCE89

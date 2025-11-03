@@ -1,5 +1,7 @@
 # MathTech <br> Tecnologias para o Ensino de Matemática
 
+![Em construção](imag/under_construction.png){ width="160" }
+
 [Departamento de Matemática](https://www.dm.cefetmg.br) –
 [PROFMAT](https://www.profmat.cefetmg.br) –
 [CEFET-MG](https://www.cefetmg.br/home)
